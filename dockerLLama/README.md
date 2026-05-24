@@ -7,7 +7,7 @@
 
 ---
 
-Author: J4ck3LSyN
+Author: J4ck3LSyN  
 Version: 0.0.5(hermes-agent variant)
 
 ---
