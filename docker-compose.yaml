@@ -31,7 +31,7 @@ services:
     build:
       context: ./hermes-agent
       dockerfile: Dockerfile
-    container_name: docker-hermit
+    container_name: docker-hermes
     restart: unless-stopped
     tty: true
     stdin_open: true
