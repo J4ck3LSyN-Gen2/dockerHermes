@@ -1,4 +1,4 @@
-# DockerHermit: Containerized Hermes-Agent + Localized Ollama
+# DockerHermes: Containerized Hermes-Agent + Localized Ollama
 
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Ollama](https://img.shields.io/badge/Ollama-black?style=for-the-badge)](https://ollama.ai/)
