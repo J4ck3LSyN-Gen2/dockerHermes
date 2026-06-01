@@ -4,7 +4,7 @@ case "$1" in
     spawn)
         docker compose up -d --build
         if [[ "$2" != "--no-install" ]]; then
-            docker exec -it docker-hermit bash -c "curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash"
+            docker exec -it docker-hermes bash -c "curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash"
         fi
         ;;
     kill)
