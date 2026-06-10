@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     procps \
     wget \
     unzip \
+    xz-utils \
     && rm -rf /var/lib/apt/lists/*
 ENV PATH="/root/.local/bin:$PATH"
 RUN python3 -m pip install --upgrade pip
